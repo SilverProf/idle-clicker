@@ -1,0 +1,13 @@
+[gd_scene load_steps=2 format=3 uid="uid://d335uw7kw3yup"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_vuf0s"]
+font_size = 24
+
+[node name="ScoreLabel" type="Label"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "Score: 0"
+label_settings = SubResource("LabelSettings_vuf0s")

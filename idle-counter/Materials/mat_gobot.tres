@@ -1,0 +1,9 @@
+[gd_resource type="ShaderMaterial" load_steps=2 format=3 uid="uid://db5t6tn8gl4af"]
+
+[ext_resource type="Shader" path="res://Materials/shd_gobot.gdshader" id="1_wevx6"]
+
+[resource]
+shader = ExtResource("1_wevx6")
+shader_parameter/ringThickness = 0.1
+shader_parameter/circleRadius = 0.0
+shader_parameter/intensity = 1.25

@@ -1,0 +1,10 @@
+[gd_scene load_steps=3 format=3 uid="uid://yo5xyls03wyl"]
+
+[ext_resource type="Texture2D" uid="uid://b6y6oonu10fgt" path="res://icon.svg" id="1_5ebhs"]
+[ext_resource type="Material" uid="uid://db5t6tn8gl4af" path="res://Materials/mat_gobot.tres" id="1_c1pvj"]
+
+[node name="GobotSprite" type="Sprite2D"]
+material = ExtResource("1_c1pvj")
+position = Vector2(576, 324)
+scale = Vector2(1.5, 1.5)
+texture = ExtResource("1_5ebhs")

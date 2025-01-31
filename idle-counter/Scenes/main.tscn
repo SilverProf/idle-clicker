@@ -1,0 +1,18 @@
+[gd_scene load_steps=4 format=3 uid="uid://bavn0bsj58wws"]
+
+[ext_resource type="Script" path="res://Scripts/main.gd" id="1_1vtm8"]
+[ext_resource type="PackedScene" uid="uid://yo5xyls03wyl" path="res://Scenes/gobot_sprite.tscn" id="1_xlakb"]
+[ext_resource type="PackedScene" uid="uid://d335uw7kw3yup" path="res://Scenes/ui.tscn" id="2_ovf6u"]
+
+[node name="Main" type="Node2D"]
+script = ExtResource("1_1vtm8")
+
+[node name="GobotSprite" parent="." instance=ExtResource("1_xlakb")]
+
+[node name="ScoreLabel" parent="." instance=ExtResource("2_ovf6u")]
+offset_left = 20.0
+offset_top = 15.0
+offset_right = 96.0
+offset_bottom = 43.0
+
+[node name="Timer" type="Timer" parent="."]
